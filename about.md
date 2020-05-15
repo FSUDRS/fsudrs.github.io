@@ -1,11 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About DRS
 ---
 
-The Office of Digital Research and Scholarship is a part of the Florida State University Libraries.
+The Office of Digital Research and Scholarship is a part of the Florida State University Libraries. We offer collaborative partnerships and consulting for technology-inflected research in the areas of digital humanities, academic publishing, and instruction. We focus on connecting people to people and providing tools and content for new forms of scholarship.
 
-We provide consultations, technical expertise, and infrastructure for open and forward-thinking research projects. 
-
-DRS hosts training sessions, aids in scholarly project development, and provides seed funding and small grants to faculty, students and staff working under in the broad category of digital scholarship. We develop tools, applications, and workflows to promote accessibility and to increase the impact of FSU research outcomes in open and online environments.
+This site contains detailed information on our ongoing projects and training and tutorial materials for learning new digital research skills. To find out more about our services, visit [https://www.lib.fsu.edu/drs](https://www.lib.fsu.edu/drs)

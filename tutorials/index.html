@@ -1,0 +1,9 @@
+---
+layout: post
+collectionpage: tutorials
+---
+
+{% for tutorial in site.tutorials %}
+  <h2><a href="{{ tutorial.url }}">{{ tutorial.title }}</a></h2>
+  <p>{{ tutorial.content | markdownify }}</p>
+{% endfor %}

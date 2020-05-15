@@ -1,6 +1,9 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+title: Office of Digital Research and Scholarship
+layout: page
+feature_image: "https://drodz11.github.io/colors-of-ozu/objects/eos_ximageID_ybright-med.jpg"
+feature_text: |
+  ## FSU DRS
 ---
+
+This space contains tutorials on digital research methods and tools and project documentation for ongoing DRS Projects.

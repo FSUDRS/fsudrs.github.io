@@ -1,65 +1,61 @@
-# Set theme
-remote_theme: daviddarnes/alembic
-
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
-- jekyll-remote-theme
-
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
-url: 'fsudrs.github.io'
-baseurl: ''
-title: 'Office of Digital Research and Scholarship'
-description: 'Projects and Training Materials from the FSU Libraries Office of Digital Research and Scholarship'
-permalink: pretty
-logo: "https://www.lib.fsu.edu/sites/default/files/sites/default/files/upload/drs/dighum.png"
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Pagination
-paginate: 5
-paginate_path: blog/page:num
+title: FSU Library Publishing
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The website for the library publishing initiative at Florida State university
+# baseurl: # the subpath of your site, e.g. /blog
+url: "https://fsudrs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Tutorials
-  url: /tutorials/
-- title: Projects
-  url: /projects/
-
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
-
-# Collections
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  
 collections:
   tutorials:
-    title: Tutorials
     output: true
-    description: "Tutorials for Digital Research Skills"
-    feature_text: |
-      Tutorials and Training
-    feature_image: "https://drodz11.github.io/colors-of-ozu/objects/eos_ximageID_ybright-med.jpg"
-  projects:
-    title: Projects
+  workshops:
     output: true 
-    description: "DRS Projects"
-    feature_text: |
-        DRS Projects 
-    feature_image: "https://drodz11.github.io/colors-of-ozu/objects/eos_ximageID_ybright-med.jpg"
+  instruction:
+    output: true 
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

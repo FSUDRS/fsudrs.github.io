@@ -21,7 +21,7 @@ handle: about
 
 ## Contact
 
-To contact us about publishing opportunities, please use this webform: [https://www.lib.fsu.edu/DRS/form/contact-us](https://www.lib.fsu.edu/DRS/form/contact-us).
+To propose a publishing project, please contact us at [lib-digischol@fsu.edu](mailto:lib-digischol@fsu.edu?subject=New%20FSOP%20Publishing%20Project%20Proposal) and a member of our team will be in touch.
 
 ## Policies 
 

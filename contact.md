@@ -6,13 +6,11 @@ permalink: /contact/
 
 ### Propose a Publishing Project
 
-To propose a publishing project, please complete our Digital Project Consultation Request form at [https://www.lib.fsu.edu/DRS/form/contact-us](https://www.lib.fsu.edu/DRS/form/contact-us) and a member of our team will be in touch. 
+To propose a publishing project, please contact us at [lib-digischol@fsu.edu](mailto:lib-digischol@fsu.edu?subject=New%20FSOP%20Publishing%20Project%20Proposal) and a member of our team will be in touch. 
 
 ### Our Staff
 
 Devin Soper, Director of Digital Research and Scholarship, dsoper[at]fsu[dot]edu
-
-Laura Miller, Open Publishing Librarian, lmiller[at]fsu[dot]edu
 
 Matthew Hunter, Digital Scholarship Librarian, mhunter2[at]fsu[dot]edu
 

@@ -19,3 +19,5 @@ Sarah Stanley, Digital Humanities Librarian, scstanley[at]fsu[dot]edu
 Camille Thomas, Scholarly Communication Librarian, cthomas5[at]fsu[dot]edu
 
 Roxann Mouratidis, Head of Scholarly Communications - Maguire Medical Library, roxann.mouratidis[at]med[dot]fsu[dot]edu
+
+Lisa Johnson, Open Publishing Assistant, laj22[at]fsu[dot]edu

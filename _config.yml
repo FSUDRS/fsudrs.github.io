@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FSU Library Publishing
+title: Florida State University Digital Scholarship
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The website for the library publishing initiative at Florida State university
@@ -35,10 +35,6 @@ plugins:
 collections:
   tutorials:
     output: true
-  workshops:
-    output: true 
-  instruction:
-    output: true 
 
 # Exclude from processing.
 # The following items will not be processed, by default.

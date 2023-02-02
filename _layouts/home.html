@@ -9,13 +9,13 @@
   </head>
   <body>
       {% include nav.liquid %}
-      <section class="featured">
+      <section class="featured-top">
           <section class="description">
               <table>
                   <tr>
                       {% for page in site.tutorials %}
                       {% if page.featured == true %}
-                      <td class="featured-title"><a href="{{ site.baseurl }}{{ page.permalink }}">{{ page.title }}</a></td>
+                      <td class="featured-title">Featured Tutorial: <br /><a href="{{ site.baseurl }}{{ page.permalink }}">{{ page.title }}</a></td>
                       <td class="featured-desc">{{ page.description }}</td>
                       {% endif %}
                       {% endfor %}
@@ -26,11 +26,14 @@
       <div class="container">
           {{ content }}
       </div>
-      <footer class="area1">
-          <p>Unless otherwise noted, the content on this website is &copy; Florida State University and licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license</a>.&nbsp; &nbsp; </p> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
-      </footer>
-      <footer class="area2">
-          <p>This site is maintained by the Office of Digital Research and Scholarship at <a href="https://www.lib.fsu.edu/">Florida State University Libraries</a>.</p>
-      </footer>
+      <section class="featured-bottom">
+          <p><a href="https://create.fsu.edu/projects-exhibit/">View Digital Projects from Florida State University</a></p>
+      </section>
+          <footer class="area1">
+              <p>Unless otherwise noted, the content on this website is &copy; Florida State University and licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license</a>.&nbsp; &nbsp; </p> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+          </footer>
+          <footer class="area2">
+              <p>This site is maintained by the Office of Digital Research and Scholarship at <a href="https://www.lib.fsu.edu/">Florida State University Libraries</a>.</p>
+          </footer>
   </body>
 </html>

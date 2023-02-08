@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Introduction to Git and GitHub"
-description: "Learn versioning for your site!"
+description: "Coming Soon!"
 permalink: /tutorials/github/
+tags: github, data-management
 featured: false 
 ---
 

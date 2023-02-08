@@ -1,19 +1,29 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>{{ page.title }}</title>
-  </head>
-  <body>
+</head>
+<body>
     {% include nav.liquid %}
     <div class="container">
-      {{ content }}
+        <div class="sidebar col-3">
+            <h3>Tutorials by Topic</h3>
+            <a href="/tag/omeka">Omeka</a>
+            <a href="/tag/scalar">Scalar</a>
+            <a href="/tag/wordpress">WordPress</a>
+            <a href="/tag/text-analysis">Text Analysis</a>
+        </div>
+        <div class="content col-9">
+            {{ content }}
+        </div>
     </div>
     <footer>
-      <p align="center"><a href="http://publishing.lib.fsu.edu/">Florida State Open Publishing</a> is a service of <a href="https://www.lib.fsu.edu/">Florida State University Libraries</a>. Unless otherwise noted, the content on this website is &copy; Florida State University and licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license</a>.<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>.</p>
+        <p>Unless otherwise noted, the content on this website is &copy; Florida State University and licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license</a>.&nbsp; &nbsp; </p> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+        <p>This site is maintained by the Office of Digital Research and Scholarship at <a href="https://www.lib.fsu.edu/">Florida State University Libraries</a>.</p>
     </footer>
-  </body>
+</body>
 </html>
